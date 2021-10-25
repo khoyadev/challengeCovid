@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color:white;
+  ;
+  }
+  
+  li {
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+  
+  li a {
+    display: block;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+  }
+.image1{ 
+  
+    float: left;
+    width: 200px;
+  }
+  .connexion {
+      
+   background-color: #EE752C;
+   height: 100px;
+   color: white;
+  }
+  .con{
+    margin-left: 70%;
+  }
+
+  .form{
+  background-color:#034F89;
+  height: 693px;
+  display: flex;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  width: 40%;
+  margin-left: 70px;
+  height: 700px;
+  align-content: center;
+  flex-direction: column;
+  margin-top: -40px;
+  
+}
+.center{
+  text-align: center;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px ;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+.button {
+  background-color:blue ;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 80px 0px 0px 75%;
+  cursor: pointer;
+  font-size:20px ;
+}
+p,.center h2{
+  color: cornflowerblue;
+}
+.formulaire{
+  padding-top: 30px;
+}
+form div{
+  margin: 10px;
+}
+.twitter{
+  margin-left: 45%;
+  margin-top: -49px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background: #00acee;
+}
+.twitter i{
+  margin: 12px 10px 10px 12px;
+  color:white !important;
+  width: 12%;
+}
+.facebook i{
+  margin: 12px 10px 10px 12px;
+  color:white !important;
+  width: 12%;
+}
+.facebook{
+  margin-left: 35%;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background: blue;
+}
+.seconnecter{
+  text-align: center;
+  color: black;
+}
+.google{
+  margin-left: 55%;
+  margin-top: -49px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background: red;
+}
+.google i{
+  margin: 12px 10px 10px 12px;
+  color:white !important;
+  width: 12%;
+}
+.icon{
+  margin-top: 10%;
+}
+.fin{
+  margin-top: 7%;
+}
+.fin p{
+ 
+  display: inline;
+}
+.vous{
+  color: black;
+}
+div img{
+  display: block !important;
+  margin-left: 50% !important;
+  margin-right: auto !important;
+  margin-top: 50px;
+  width: 100% !important;
+}
+
